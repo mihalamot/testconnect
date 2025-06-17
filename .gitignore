@@ -2,7 +2,7 @@ node_modules/ #dont push node_modules, everyone installs their own
 
 *.log #no reason to push logs
 
-.env #dont push .env, sensitive data
+server/.env #dont push .env, sensitive data
 
 dist/
 build/
