@@ -1,8 +1,8 @@
-node_modules/
+node_modules/ #dont push node_modules, everyone installs their own
 
-*.log
+*.log #no reason to push logs
 
-.env
+.env #dont push .env, sensitive data
 
 dist/
 build/
